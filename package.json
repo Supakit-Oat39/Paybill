@@ -1,0 +1,15 @@
+{
+  "name": "paybill-bill-splitter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "เว็บแอปหารค่าใช้จ่าย (Bill Splitter) — Static site, LocalStorage, OCR ด้วย Tesseract.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "test:e2e": "node --test --test-concurrency=1 \"tests/e2e/*.test.mjs\""
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}

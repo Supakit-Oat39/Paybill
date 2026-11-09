@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+
+# สเปกงาน เก็บไว้ในเครื่องเท่านั้น ไม่เอาขึ้น GitHub
+bill-splitter-claude-spec.md
